@@ -1,0 +1,116 @@
+#top{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+.top-cont{
+     margin-top: 10px;
+     margin-right: 20px;
+     color: whitesmoke;
+     margin-right: 20px;
+
+}
+a{
+    color:white;
+    text-decoration: none;
+  }
+  #logo{
+    display: flex;
+         justify-content: center;
+         align-items: center;
+      margin-top: 70px;
+      padding:0;
+      
+    }
+    h2{
+    font-size:75px;
+    } 
+    .bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    position: relative;
+    }
+    
+    .bar div{
+    position: absolute;
+    pointer-events: none; 
+    display: inline;  
+    }
+    
+    .bar input{
+      background-color: white;
+      width: 700px;
+      height:40px;
+      border-radius: 25px;
+      margin-left:60px ;
+      padding-left: 50px;
+      border: solid;
+      margin-top: -40px;
+      display: inline;
+    
+    
+    }
+    
+    
+    #shortcut{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    }
+    #plus{
+    background-color:rgb(218, 215, 215);
+          width: 50px;
+          height: 50px;
+          border-radius:50%;
+          margin-top:40px;
+          padding-right:.5px;
+         
+    }
+    .add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    font-size:20px;
+    padding-left:15px;
+    padding-top: 15px;
+    }
+    .search_input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    border: 1px solid lightgray;
+    height: 25px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width:75vw;
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: white;
+    }
+    .search_input input{
+    flex:1;
+    padding: 10px 20px;
+    border: none;
+    outline:none;
+    font-size:15px;
+    
+    }
+    .top-cont:hover{
+    text-decoration: underline;
+    color: white;
+    }
+    .bottom{
+    display: flex;
+    justify-content:flex-end;
+    margin-right: 25px;
+    margin-top:190px;
+    }
+    .pen{
+    font-size: 12px;
+    color: white;
+    
+    }
